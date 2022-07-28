@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8db3dd4a0.js" crossorigin="anonymous"></script>
+    <title>finance page</title>
+<style>
+    body{
+        width:1224PX;
+        margin-left: auto;
+        margin-right: auto;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    .header{
+        width: 1224px;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        box-shadow: 3px 2px 5px black;
+        position: sticky;
+       
+    }
+    .menu{
+        font: 1em sans-serif;
+        font-size: bold;
+        flex-grow: 1;
+        margin: 10px;
+        line-height: 75px;
+        text-align: center;
+    }
+    #icon{
+        position: relative;
+        top: 10px;
+    }
+    .image{
+        margin-top: 10px;
+        width: 400px;
+        text-align: center;
+        line-height: 100px;
+    }
+    #button{
+        width:100px;
+        height: 30px;
+        background-color: rgb(250, 81, 3);
+        border:none;
+        border-radius: 10px;
+        color: white;
+    }
+    #button:hover{
+        background-color: black;
+        color: white;
+    }
+    .menubar{
+        width: 900px;
+        display: flex;
+        margin-left: 324px;
+        margin-right:0px ;
+        height: 50px;
+        background-image: url(Untitled-1.png); 
+        position: sticky;
+
+    }
+    .m{
+        width:150px;
+       
+        margin-left: 70px;
+        text-align: center;
+        line-height: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color:white;
+    }
+    .cimg{
+       width: 1224px;
+       height: 700px;
+       background-image: url("Word-cloud-Crypto-(3).jpg");
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end; 
+    }
+    #SI{
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: larger;
+        border: 2px solid rgb(8, 8, 8); 
+        color: rgb(13, 13, 14);
+    }
+    #SI:hover{
+        color:rgb(245, 82, 6);
+        background-color: 2px solid rgb(250, 243, 241);
+    }
+    header{
+        background-attachment: fixed;
+    }
+    .Spage{
+        width: 1224px;
+        display: flex;
+    }
+.Aspage{
+    width:600px;
+    text-justify: center;
+}
+.text{
+    color:rgb(255, 123, 0);
+    text-decoration-line: underline;
+    margin-left: 20px;
+}
+.Tpage{
+    text-align: center;
+    width: 1224px;
+    font-size: larger;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+#serv{
+    width:250px;
+    height: 275px;
+    box-shadow: 1px 2px 6px black;
+    line-height: 40px;
+
+   
+}
+.ftag{
+    width:300px;
+    text-justify:start;
+   font-size: x-small;
+   margin-left: 20px;
+   
+}
+.Ttab{
+    width: 600px;
+    background-color: rgb(48, 48, 49);
+    color: aliceblue;
+   
+}
+#ST{
+    width: 130px;
+        height: 35px;
+        font-size: larger;
+        border: 1px solid rgb(245, 115, 28); 
+        color: rgb(13, 13, 14);
+}
+#ST:hover{
+    color:rgb(245, 115, 28);
+}
+.about{
+    display: flex;
+    direction: row;
+    margin-left: 100px;
+    width: 900px;}
+    
+.Contact{ 
+    position: relative;
+    width: 1224px;
+    height: 500px;
+    
+}
+.form{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+   margin-left: 300px;
+   margin-top: 40px;
+}
+#form{
+
+    width:600px;
+    height:60px;
+    margin-top: 40px;
+    background-color: black;
+    color: aliceblue;
+    border:none;
+   
+}
+#formt{
+
+width:600px;
+height:100px;
+margin-top: 40px;
+background-color: black;
+color: aliceblue;
+border:none;
+
+}
+#forms{
+
+width:200px;
+height:60px;
+margin-top: 40px;
+background-color: white;
+color: black;
+border:none;
+margin-left: 200px;
+font-size: large;
+}
+#forms:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    width:1224px;
+    height: 300px;
+    background-color: rgb(63, 32, 15);
+    display: flex;
+    color:white;
+}
+.Details{
+    margin: 20px;
+    margin-left:10px;
+    width:300px;
+    list-style-type: none;
+    padding: 5px;
+}
+#hlight{
+    color: white;
+}
+#hlight:hover{
+  color:  rgb(245, 115, 28);
+  cursor: pointer;
+}
+#Email{
+    border:none;
+    border-radius: 5px;
+    background-color: white;
+    width:150px;
+    height: 25px;
+}
+#submit{
+    border:none;
+    border-radius: 5px;
+    background-color:  rgb(245, 115, 28);
+    color: aliceblue;
+    width:75px;
+    height: 25px;
+    font-weight:bolder;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+<div class="header">
+    <div class="image"><img src="logo.png" width="200px" alt="logo"></div>
+    <div class="menu"><img src="email-13803.png" width="30px" id="icon">invest.me@gmail.com</div>
+    <div class="menu"><img src="mobile-icon-png-2370.png" width="30px" id="icon">+7123569847</div>
+    <div class="menu"><input type="button" value="Join Us" id="button"></div>
+</div> 
+
+
+<div class="menubar">
+<div class="m"><a href="#cimg">Home</a></div>
+<div class="m"><a href="#Spage">About</a></div>
+<div class="m"><a href="#Tpage">Exchange</a></div>
+<div class="m"><a href="#about">Services</a></div>
+<div class="m"><a href="#Tpage">News</a></div>
+<div class="m"><a href="#contact">Contact</a></div>
+<div class="m"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+
+</div>
+</header>
+<div class="cimg">
+       <div class="para"><input type="button" value="Start Invest" id="SI"></div>
+</div>
+<div class="Spage">
+<div class="Aspage"><img src="cryptocurrency-2922058.jpg" width="600px" alt="Coin"></div>
+<div>
+    <div class="Aspage"><h1><span class="text">Welcome</span>To Exchange</h1>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+         laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat
+           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br> <br>
+        <input type="button" value="About More" id="SI"></div>
+</div>
+</div>
+
+<div class="Tpage">
+    <div class="text"><h1>Services</h1></div>
+    <div class="services">
+    <div id="serv"><img src="s1.png" width="250px" alt="icon"><br>Secure & Safe</div>
+    <div id="serv"><img src="s2.png" width="250px" alt="icon"><br>Mobile Apps</div>
+    <div id="serv"><img src="s3.png" width="250px" alt="icon"><br>Wallet</div>
+    <div id="serv"><img src="s4.png" width="250px" alt="icon"><br>Experts Support</div>
+    </div>
+</div><br><br>
+
+<div class="services">
+    <div><img src="img2 (1).png" width="600px" alt="icons"></div>
+    <diV class="Ttab">
+    <div><h1><span class="text">Apply for Invest</span>ment</h1></div><br>  
+        <div class="ftag">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum<br><br><br>
+          <input type="button" value="invest me >" id="ST"> 
+        </div>
+        </div>
+        </div>
+        <br><br><br>
+
+
+    <div class="about">
+        <div class="Ftab">
+        <div class="text" style="font-size: x-large; margin-left: 0px;"><h1>About</h1></div>
+        <div style="width:500px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum<br><br> <input type="button" value="Read More >" id="ST"></div></diV>
+         <div style="margin-left: 40px;"><img src="img3.png" width="450px" alt="coin"></div>   
+    </div>
+
+    <div class="Tpage">
+        <div class="text"><h1>News</h1></div>
+        <div class="services">
+        <div id="serv" style="font-size: x-small; height: 400px; background-color: rgb(245, 115, 28) ;"><img src="download.jpg" width="250px" height="205px" alt="icon"><br><b>Bitcoin News</b>
+            <br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum </div>
+        <div id="serv"  style="font-size: x-small; height: 400px; background-color: rgb(245, 115, 28) ;"><img src="s1.png" width="250px" alt="icon"><br><b>Investment News</b><br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum</div>
+        <div id="serv"  style="font-size: x-small; height: 400px; background-color: rgb(245, 115, 28) ;"><img src="img4.jpg" width="250px" alt="icon"><br><b>Market News</b><br> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum</div>
+        </div>
+        </div>
+        <br><br>
+
+        <div class="contact">
+            <div class="text" style="text-align: center;"><h1>Contact</h1></div>
+            <div class="Contact">
+                <div class="form" >
+                    <div><input type="text" placeholder="Your name" id="form"></div>
+                    <div><input type="text" placeholder="Email" id="form"></div>
+                        <div><input type="text" placeholder="Phone number" id="form"></div>
+                            <div style="height: 140px;"><textarea rows="4" cols="50" name="comment" form="usrform" id="formt" placeholder="Enter text here...">
+                                </textarea></div>
+                                <div><input type="button" value="Send" id="forms"></div></div>
+               <img src="blockchain_gdf8d55790_192024.jpg" width="1224px" height="700px" alt="coin">
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="footer">
+    <div style="margin-top: 50px; margin-left: 100px;"><img src="footer_logo.png" width="200px" alt="footerlogo"></div>
+    <div class="Details">
+        <h2 style="border: none; border-bottom: 4px solid rgb(245, 115, 28);">Quick Links</h2>
+        <li id="hlight" style="margin: 10px;">> Home</li>
+        <li id="hlight" style="margin: 10px;">> About</li>
+        <li id="hlight" style="margin: 10px;">> Exchange</li>
+        <li id="hlight" style="margin: 10px;">> Services</li>
+        <li id="hlight" style="margin: 10px;">> News</li>
+        <li id="hlight" style="margin: 10px;">> Contact</li>
+    </div>    
+    <div class="Details">
+        <h2 style="border: none; border-bottom: 4px solid rgb(245, 115, 28);">Newsletter</h2>
+        <li style="margin: 10px;">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do</li>
+        <li style="margin: 10px;"><input type="text" placeholder="Your Email" id="Email"></li>
+        <li style="margin: 10px;"><input type="button" value="Submit" id="submit"></li>
+    </div>    
+    <div class="Details">
+        <h2 style="border: none; border-bottom: 4px solid rgb(245, 115, 28);">Contact us</h2>
+        <li style="margin: 10px;"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;London 145<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; United Kingdom</li>
+        <li style="margin: 10px;"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;demo@gmail.com</li>
+       <li style="margin: 10px;"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+12586954775</li>
+    </div> 
+</div>
+
+<div style="width: 1224px; height: 100px; text-align: center; line-height: 100px; background-color: rgb(91, 46, 22); color: white ;">© Copyrights 2022 design by html.design</div>
+</div>
+</body>
+</html>
